@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# Project specific
+backend/uploads/*
+backend/compressed/*
+!backend/uploads/.gitkeep
+!backend/compressed/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
